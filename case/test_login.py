@@ -134,7 +134,6 @@ class Test_login(object):
         self.base_page.swipe_to_left()
         self.welcome_page.click_tiyan_button()
         self.welcome_page.click_login_button()
-        # self.login_page.input_username('')
         self.login_page.input_passwd('12345678')
         self.login_page.click_signin_button()
         res = self.base_page.is_toast_exist('请输入账号！')
@@ -143,3 +142,4 @@ class Test_login(object):
 
 if __name__ == '__main__':
     pytest.main(["--reruns", "3", "--reruns-delay", "2", "--alluredir", "result"])
+    print(123)
