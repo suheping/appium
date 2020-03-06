@@ -1,0 +1,8 @@
+node_modules
+.idea
+.pytest_cache
+__pycache__
+screen_shot
+mylog
+result
+report
