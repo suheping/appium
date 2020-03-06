@@ -142,3 +142,4 @@ class Test_login(object):
 
 if __name__ == '__main__':
     pytest.main(["--reruns", "3", "--reruns-delay", "2", "--alluredir", "result"])
+    print('123')
